@@ -25,3 +25,6 @@ else
     set columns=100
   endif
 endif
+
+" It's useful to show the buffer number in the status line.
+set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
