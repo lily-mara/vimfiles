@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='F:\Dropbox\College\Semester_1\CSE-174'
 let g:netrw_dirhist_2='F:/Dropbox/College/Semester_1/CSE-174/HW--2013-10-06--PG5'
 let g:netrw_dirhist_3='F:/Dropbox/College/Semester_1/CSE-174'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='F:\Dropbox\Tweaks\General\Portable_Apps'
 let g:netrw_dirhist_5='F:/Dropbox'
 let g:netrw_dirhist_6='F:/Dropbox/Tweaks/General/Scripts--AutoHotKey'
 let g:netrw_dirhist_7='C:/Users/Nate/vimfiles/bundle/vim-gitgutter/plugin'
+let g:netrw_dirhist_8='C:/Users/Nate/vimfiles/bundle/pathodgen'
+let g:netrw_dirhist_9='C:/Users/Nate/vimfiles/bundle/vim-colors-solarized'
