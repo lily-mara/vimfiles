@@ -18,7 +18,7 @@ map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR>
 :nmap <Leader>s :source $MYVIMRC<cr>
 
 " opens $MYVIMRC for editing, or use :tabedit $MYVIMRC
-:nmap <Leader>v :e $MYVIMRC<cr>
+:nmap <Leader>v :e $HOME/vimfiles/.vimrc<cr>
 
 " maps tilde to esc key
 imap <C-Esc> `
@@ -32,7 +32,7 @@ imap <S-Esc> ~
 nnoremap <Leader>l :ls<CR>
 nnoremap <Leader>b :bp<CR>
 nnoremap <Leader>f :bn<CR>
-nnoremap <Leader>g :e#<CR>
+"nnoremap <Leader>g :e#<CR>
 nnoremap <Leader>1 :1b<CR>
 nnoremap <Leader>2 :2b<CR>
 nnoremap <Leader>3 :3b<CR>
@@ -54,3 +54,6 @@ imap <LeftMouse> <NOP>
 
 nmap <2-LeftMouse> <NOP>
 imap <2-LeftMouse> <NOP>
+
+"Git gutter toggle from Leader + g
+nnoremap <Leader>gg :GitGutterToggle<CR>
