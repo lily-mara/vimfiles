@@ -53,3 +53,7 @@ imap <2-LeftMouse> <NOP>
 
 "Git gutter toggle from Leader + g
 nnoremap <Leader>gg :GitGutterToggle<CR>
+
+"Git commands
+nnoremap <Leader>g<Space> :Git add %<CR>
+nnoremap <Leader>gc :Gcommit<CR>
