@@ -57,8 +57,3 @@ nnoremap <Leader>gg :GitGutterToggle<CR>
 "Git commands
 nnoremap <Leader>g<Space> :Git add %<CR>
 nnoremap <Leader>gc :Gcommit<CR>
-
-"multiCursors
-nnoremap <Leader>mcp :<c-u>call MultiCursorPlaceCursor()<cr>
-nnoremap <Leader>mcc :<c-u>call MultiCursorManual()<cr>
-nnoremap <Leader>mcr :<c-u>call MultiCursorRemoveCursors()<cr>
