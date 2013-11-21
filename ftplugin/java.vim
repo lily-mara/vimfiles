@@ -48,3 +48,6 @@ let b:undo_ftplugin = "setlocal suffixes< suffixesadd<" .
 
 " Restore the saved compatibility options.
 let &cpo = s:save_cpo
+
+:set autowrite
+:nmap <F5> :make<cr>
