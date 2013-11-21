@@ -51,3 +51,4 @@ let &cpo = s:save_cpo
 
 :set autowrite
 :nmap <leader>m :make<cr>
+:set colorcolumn=70
