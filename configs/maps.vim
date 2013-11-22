@@ -57,3 +57,4 @@ nnoremap <Leader>gg :GitGutterToggle<CR>
 "Git commands
 nnoremap <Leader>g<Space> :Git add %<CR>
 nnoremap <Leader>gc :Gcommit<CR>
+nnoremap <Leader>gp :Git push<CR>
