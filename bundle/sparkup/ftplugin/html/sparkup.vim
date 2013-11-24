@@ -25,11 +25,11 @@
 "     Setup mappings for normal mode?
 
 if !exists('g:sparkupExecuteMapping')
-  let g:sparkupExecuteMapping = '<c-e>'
+  let g:sparkupExecuteMapping = '<leader>se'
 endif
 
 if !exists('g:sparkupNextMapping')
-  let g:sparkupNextMapping = '<c-n>'
+  let g:sparkupNextMapping = '<leader>sn'
 endif
 
 if !exists('g:sparkupMaps')
