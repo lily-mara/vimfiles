@@ -58,3 +58,7 @@ nnoremap <Leader>gg :GitGutterToggle<CR>
 nnoremap <Leader>g<Space> :Git add %<CR>
 nnoremap <Leader>gc :Gcommit<CR>
 nnoremap <Leader>gp :Git push<CR>
+
+"auto makes
+:set autowrite
+:nmap <leader>m :make<cr>
