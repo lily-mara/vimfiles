@@ -1,6 +1,8 @@
 set backupdir=./.backup,.,/tmp
 set directory=.,./.backup,/tmp
 
+let mapleader=","
+
 "sources different config files to keep this file cleaner
 source $VIM/configs/filetypes.vim
 source $VIM/configs/look.vim
