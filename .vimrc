@@ -3,6 +3,10 @@ set directory=.,./.backup,/tmp
 
 let mapleader=","
 
+if has('unix')
+	let $VIM = '/home/maranj/.vim'
+endif
+
 "sources different config files to keep this file cleaner
 source $VIM/configs/filetypes.vim
 source $VIM/configs/look.vim
