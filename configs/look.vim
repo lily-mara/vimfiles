@@ -4,11 +4,6 @@ set background=light
 set t_Co=256
 set cursorline
 
-if $COLORTERM == 'gnome-terminal'
-	color molokai
-	set t_co=256
-endif
-
 color solarized
 
 " sets size of window / font
@@ -38,3 +33,7 @@ set nrformats=
 set shellslash
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
+
+if $COLORTERM == 'gnome-terminal'
+    color molokai
+endif
