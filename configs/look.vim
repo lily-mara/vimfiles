@@ -4,6 +4,10 @@ set background=light
 set t_Co=256
 set cursorline
 
+if $COLORTERM == 'gnome-terminal'
+    set t_co=256
+endif
+
 color solarized
 
 " sets size of window / font
