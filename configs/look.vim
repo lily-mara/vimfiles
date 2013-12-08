@@ -5,7 +5,8 @@ set t_Co=256
 set cursorline
 
 if $COLORTERM == 'gnome-terminal'
-    set t_co=256
+	color molokai
+	set t_co=256
 endif
 
 color solarized
