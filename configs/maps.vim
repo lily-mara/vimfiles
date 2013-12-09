@@ -62,3 +62,7 @@ nnoremap <Leader>gp :Git push<CR>
 "auto makes
 :set autowrite
 :nmap <leader>m :make<cr>
+
+"maps jk to esc
+inoremap jk <Esc>
+vnoremap jk <Esc>
