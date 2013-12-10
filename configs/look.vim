@@ -4,7 +4,7 @@ set background=light
 set t_Co=256
 set cursorline
 
-color solarized
+color molokai
 
 " sets size of window / font
 if has("gui_running")
