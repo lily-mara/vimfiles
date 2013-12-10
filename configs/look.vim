@@ -18,12 +18,12 @@ if has("gui_running")
   endif
 else
   " This is console Vim.
-  if exists("+lines")
-    set lines=50
-  endif
-  if exists("+columns")
-    set columns=100
-  endif
+"  if exists("+lines")
+"    set lines=50
+"  endif
+"  if exists("+columns")
+"    set columns=100
+"  endif
 endif
 
 " It's useful to show the buffer number in the status line.
