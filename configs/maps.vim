@@ -64,5 +64,5 @@ nnoremap <Leader>gp :Git push<CR>
 :nmap <leader>m :make<cr>
 
 "maps jk to esc
-inoremap jk <Esc>
-vnoremap jk <Esc>
+"inoremap jk <Esc>
+"vnoremap jk <Esc>
