@@ -13,6 +13,7 @@ source $VIM/configs/look.vim
 source $VIM/configs/maps.vim
 source $VIM/configs/pathogen.vim
 source $VIM/configs/macros.vim
+source $VIM/configs/functions.vim
 
 
 let g:gitgutter_realtime = 0
