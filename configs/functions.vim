@@ -1,7 +1,7 @@
 command! Prose inoremap <buffer> . .<C-G>u|
             \ inoremap <buffer> ! !<C-G>u|
             \ inoremap <buffer> ? ?<C-G>u|
-            \ setlocal spell spelllang=sv,en
+            \ setlocal spell spelllang=en
             \     nolist nowrap tw=74 fo=t1 nonu|
             \ augroup PROSE|
             \   autocmd InsertEnter <buffer> set fo+=a|
