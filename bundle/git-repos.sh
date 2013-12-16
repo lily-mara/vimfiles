@@ -9,3 +9,4 @@ git clone https://github.com/Lokaltog/vim-easymotion.git
 git clone https://github.com/scrooloose/syntastic.git
 git clone git://git.code.sf.net/p/vim-latex/vim-latex vim-latex-vim-latex
 git clone https://github.com/kakkyz81/evervim.git
+git clone git://github.com/msanders/snipmate.vim.git
