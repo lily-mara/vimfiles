@@ -66,3 +66,6 @@ nnoremap <Leader>gp :Git push<CR>
 "maps jk to esc
 "inoremap jk <Esc>
 "vnoremap jk <Esc>
+
+"maps w!! to sudoed write
+cmap w!! w !sudo tee > /dev/null %
