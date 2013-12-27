@@ -69,3 +69,8 @@ nnoremap <Leader>gp :Git push<CR>
 
 "maps w!! to sudoed write
 cmap w!! w !sudo tee > /dev/null %
+
+"maps for working with tabs
+nnoremap <Leader>tn :tabN<CR>
+nnoremap <Leader>tp :tabp<CR>
+nnoremap <Leader>tN :tabnew<CR>
