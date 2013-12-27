@@ -11,6 +11,6 @@ command! Prose inoremap <buffer> . .<C-G>u|
 command! Code silent! iunmap <buffer> .|
             \ silent! iunmap <buffer> !|
             \ silent! iunmap <buffer> ?|
-            \ setlocal nospell nolist nowrap
+            \ setlocal nospell nolist wrap
             \     tw=74 fo=cqr1 nu|
             \ silent! autocmd! PROSE * <buffer>
