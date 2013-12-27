@@ -12,5 +12,5 @@ command! Code silent! iunmap <buffer> .|
             \ silent! iunmap <buffer> !|
             \ silent! iunmap <buffer> ?|
             \ setlocal nospell nolist nowrap
-            \     tw=74 fo=cqr1 showbreak=… nu|
+            \     tw=74 fo=cqr1 nu|
             \ silent! autocmd! PROSE * <buffer>
