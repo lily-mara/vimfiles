@@ -74,3 +74,4 @@ cmap w!! w !sudo tee > /dev/null %
 nnoremap <Leader>tn :tabN<CR>
 nnoremap <Leader>tp :tabp<CR>
 nnoremap <Leader>tN :tabnew<CR>
+nnoremap <Leader>tc :tabcl<CR>
