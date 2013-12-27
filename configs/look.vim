@@ -33,7 +33,3 @@ set nrformats=
 set shellslash
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
-
-if $COLORTERM == 'gnome-terminal'
-    color molokai
-endif
