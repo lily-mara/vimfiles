@@ -18,4 +18,4 @@ let @s = 'yyp:s/./-/g'
 "--strikethrough current line and move to end of file
 let @d = '0/[a-z]i~~A~~ddGp4G'
 "--new todo item
-let @g = '4GO- '
+let @g = '4GO1. '
