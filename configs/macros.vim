@@ -13,3 +13,9 @@ let @h = 'yyp:s/./=/g'
 
 "adds markdown subheading line under current line
 let @s = 'yyp:s/./-/g'
+
+"macros for dealing with my todo files
+"--strikethrough current line and move to end of file
+let @d = '0/[a-z]i~~A~~ddGp4G'
+"--new todo item
+let @g = '4GO- '
