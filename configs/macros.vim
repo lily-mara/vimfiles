@@ -17,6 +17,7 @@ let @s = 'yyp:s/./-/g'
 "macros for dealing with my todo files
 "--strikethrough current line and move to end of file
 let @d = '0/[a-z]i~~A~~ddGp4G'
-let @k = 'dd/TALK2jGp4G'
+"--move to 'TALK ABOUT' section
+let @k = 'dd/TALK2jp4G'
 "--new todo item
 let @g = '4GO1. '
