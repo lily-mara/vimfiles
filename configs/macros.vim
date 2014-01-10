@@ -22,4 +22,4 @@ let @k = 'dd/TALK2jp4G'
 "--new todo item
 let @g = '4GO1. '
 "--move to 'IN PROGRESS' section
-let @k = 'dd/PROGRESS2jp4G'
+let @p = 'dd/PROGRESS2jp4G'
