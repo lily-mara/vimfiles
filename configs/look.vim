@@ -35,4 +35,5 @@ set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
 
 " for eclim plugin
-set guioptions-=Tm
+set guioptions-=T
+set guioptions-=m
