@@ -15,7 +15,7 @@ nmap <leader>nt :NERDTreeToggle<cr>
 map <F11> <Esc>:call libcallnr("gvimfullscreen.dll", "ToggleFullScreen", 0)<CR> 
 
 " source $MYVIMRC reloads the saved $MYVIMRC
-:nmap <Leader>s :source $MYVIMRC<cr>
+:nmap <Leader>ss :source $MYVIMRC<cr>
 
 " opens $MYVIMRC for editing, or use :tabedit $MYVIMRC
 :nmap <Leader>v :e $HOME/.vim/.vimrc<cr>
@@ -78,3 +78,6 @@ nnoremap <Leader>tc :tabcl<CR>
 
 "maps space to save buffer
 noremap <Space> :w!<CR>
+
+noremap <Leader>sp :Spell<CR>
+noremap <Leader>sn :Nospell<CR>
