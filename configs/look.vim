@@ -39,3 +39,4 @@ set guioptions-=T
 set guioptions-=m
 
 set showcmd
+set rnu
