@@ -42,5 +42,6 @@ set showcmd
 set rnu
 
 if &encoding == "utf-8"
+	set list
 	set listchars=eol:¬,tab:>-,trail:#
 endif
