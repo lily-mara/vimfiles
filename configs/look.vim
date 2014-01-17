@@ -47,3 +47,4 @@ if &encoding == "utf-8"
 endif
 
 set tabstop=4
+set shiftwidth=4
