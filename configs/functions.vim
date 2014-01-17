@@ -8,9 +8,9 @@ command! Prose inoremap <buffer> . .<C-G>u|
             \   autocmd InsertLeave <buffer> set fo-=a|
             \ augroup END
 
-command! Spell spell spellang=en
+command! Spell setlocal spell spelllang=en
 
-command! Nospell set nospell
+command! Nospell setlocal nospell
 
 command! Code silent! iunmap <buffer> .|
             \ silent! iunmap <buffer> !|
