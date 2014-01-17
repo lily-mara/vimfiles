@@ -37,3 +37,5 @@ let g:tex_flavor='latex'
 " for eclim plugin
 set guioptions-=T
 set guioptions-=m
+
+set showcmd
