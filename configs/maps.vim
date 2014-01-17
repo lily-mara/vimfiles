@@ -75,3 +75,6 @@ nnoremap <Leader>tn :tabN<CR>
 nnoremap <Leader>tp :tabp<CR>
 nnoremap <Leader>tN :tabnew<CR>
 nnoremap <Leader>tc :tabcl<CR>
+
+"maps space to save buffer
+noremap <Space> :w!<CR>
