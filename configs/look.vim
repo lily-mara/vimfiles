@@ -1,10 +1,12 @@
 syntax on
 set nu
-set background=light
+
 set t_Co=256
 set cursorline
 
 color molokai
+set background=light
+set background=dark
 
 " sets size of window / font
 if has("gui_running")
