@@ -8,4 +8,5 @@ au BufRead,BufNewFile *.md set filetype=markdown
 
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
-let g:syntastic_cpp_checkers=['g++']
+let g:syntastic_cpp_checkers=['gcc']
+let g:syntastic_java_checkers=['javac']
