@@ -37,7 +37,7 @@ if !exists("g:EclimJavaCompilerAutoDetect")
 endif
 
 if !exists("g:EclimJavaSyntasticEnabled")
-  let g:EclimJavaSyntasticEnabled = 0
+  let g:EclimJavaSyntasticEnabled = 1
 endif
 
 if !exists('g:EclimJavaCallHierarchyDefaultAction')

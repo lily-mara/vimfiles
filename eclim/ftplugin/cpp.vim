@@ -25,7 +25,7 @@
 " Global Variables {{{
 
 if !exists("g:EclimCppSyntasticEnabled")
-  let g:EclimCppSyntasticEnabled = 0
+  let g:EclimCppSyntasticEnabled = 1
 endif
 
 " }}}
