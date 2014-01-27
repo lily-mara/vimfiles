@@ -35,7 +35,10 @@ set rnu
 
 if &encoding == "utf-8"
 	set list
-	set listchars=eol:Â¬,tab:>-,trail:#
+	set listchars=eol:¬,tab:>-,trail:#
+else
+	set list
+	set listchars=tab:>-,trail:#
 endif
 
 set tabstop=4
