@@ -18,8 +18,8 @@ function MD_maps()
 
 	"macros for dealing with my todo files
 	"--strikethrough current line and move to end of file
-	nmap <leader>mk 0/[a-z]i~~A~~
-	nmap <leader>md 0/[a-z]i~~A~~ddGp4G
+	nmap <leader>mk 0/[a-zA-Z]i~~A~~
+	nmap <leader>md 0/[a-zA-Z]i~~A~~ddGp4G
 	"--new todo item
 	nmap <leader>mg 4GO1. 
 	"--move to IN PROGRESS section
