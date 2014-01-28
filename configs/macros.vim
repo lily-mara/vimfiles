@@ -1,4 +1,4 @@
-Autocmd filetype markdown call MD_maps()
+au Filetype markdown call MD_maps()
 "macros for system clipboard access
 let @c = '"+y'
 let @v = '"+p'
