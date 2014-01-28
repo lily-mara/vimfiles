@@ -27,4 +27,7 @@ function MD_maps()
 
 	"--undo strikethrough
 	nmap <leader>mu :s/\~//g<CR>
+
+	"null commit
+	nmap <leader>mg :!git add %<CR>:!git commit -m "null"<CR>:!git push<CR>
 endfunction
