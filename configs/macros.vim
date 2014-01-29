@@ -21,7 +21,7 @@ function MD_maps()
 	nmap <leader>mk 0/[a-z]i~~A~~
 	nmap <leader>md 0/[a-z]i~~A~~ddGp4G
 	"--new todo item
-	nmap <leader>mg 4GO1. 
+	nmap <leader>mn 4GO1. 
 	"--move to IN PROGRESS section
 	nmap <leader>mp dd/PROGRESS2jp4G
 
@@ -29,5 +29,5 @@ function MD_maps()
 	nmap <leader>mu :s/\~//g<CR>
 
 	"null commit
-	nmap <leader>mg :!git add %<CR>:!git commit -m "null"<CR>:!git push<CR>
+	nmap <leader>mg :!git add %<CR>:!git commit -m "null"<CR>
 endfunction
