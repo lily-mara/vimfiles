@@ -75,5 +75,5 @@
 	url = https://github.com/vim-scripts/javacomplete
 	ignore = dirty
 [submodule "bundle/bundle/vim-pathogen"]
-	path = bundle/bundle/vim-pathogen
+	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
