@@ -8,12 +8,9 @@ if has('unix')
 endif
 
 "sources different config files to keep this file cleaner
+source $VIM/configs/plugins.vim
 source $VIM/configs/filetypes.vim
 source $VIM/configs/look.vim
 source $VIM/configs/maps.vim
 source $VIM/configs/macros.vim
 source $VIM/configs/functions.vim
-source $VIM/configs/plugins.vim
-
-
-let g:gitgutter_realtime = 0

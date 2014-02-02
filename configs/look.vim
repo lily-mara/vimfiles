@@ -4,7 +4,7 @@ set nu
 set t_Co=256
 set cursorline
 
-color molokai
+color monokai
 
 " sets size of window / font
 if has("gui_running")
@@ -35,10 +35,10 @@ set rnu
 
 if &encoding == "utf-8"
 	set list
-	set listchars=eol:¬,tab:>-,trail:#
+	set listchars=eol:¬,tab:»\ ,trail:#
 else
 	set list
-	set listchars=tab:>-,trail:#
+	set listchars=tab:\|\ ,trail:#
 endif
 
 set tabstop=4
