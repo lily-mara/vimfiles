@@ -35,13 +35,8 @@ set guioptions-=m
 set showcmd
 set rnu
 
-if &encoding == "utf-8"
-	set list
-	set listchars=eol:¬,tab:»\ ,trail:#
-else
-	set list
-	set listchars=tab:\|\ ,trail:#
-endif
+set list
+set listchars=eol:¬,tab:\ \ ,trail:#
 
 set tabstop=4
 set shiftwidth=4
