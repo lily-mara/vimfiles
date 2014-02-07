@@ -15,3 +15,4 @@ let g:syntastic_java_checkers=['javac']
 
 au Filetype python nmap <leader>r :!python %<CR>
 au Filetype sh nmap <leader>r :!./%<CR>
+au Filetype tex nmap <leader>r :silent:!latex %<CR>!%:r.dvi<CR>
