@@ -1,8 +1,12 @@
 set backupdir=./.backup,.,/tmp
 set directory=.,./.backup,/tmp
+set directory+=,~/tmp,$TMP
 
 let mapleader=","
 
+if has('win32') || has('win64')
+	set noshellslash
+endif
 if has('unix')
 	let $VIM = '/home/$USER/.vim'
 endif
