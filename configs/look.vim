@@ -36,7 +36,7 @@ set showcmd
 set rnu
 
 set list
-set listchars=eol:¬,tab:\ \ ,trail:#
+set listchars=eol:¬,tab:\ \ ,trail:·
 
 set tabstop=4
 set shiftwidth=4
