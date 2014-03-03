@@ -41,7 +41,7 @@ snippet item
 # Description
 snippet desc
 	\begin{description}
-		\item[${1}] ${2}
+		${1}
 	\end{description}
 # Matrix
 snippet mat
@@ -113,3 +113,16 @@ snippet section
 	${1:Section}~\ref{${2:sec:}}${3}
 snippet page
 	${1:page}~\pageref{${2}}${3}
+snippet item
+	\item[${1}] \hfill \\
+	  ${2}
+snippet itm
+	\item${1}
+snippet enum
+	\begin{enumerate}
+	  ${1}
+	\end{enumerate}
+snippet itmi
+	\begin{itemize}
+	  ${1}
+	\end{itemize}
