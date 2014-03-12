@@ -52,10 +52,10 @@ nmap <2-LeftMouse> <NOP>
 imap <2-LeftMouse> <NOP>
 
 "Git gutter toggle from Leader + g
-nnoremap <Leader>gg :GitGutterToggle<CR>
+"nnoremap <Leader>gg :GitGutterToggle<CR>
 
 "Git commands
-nnoremap <Leader>g<Space> :Git add %<CR>
+nnoremap <Leader>g :Git add %<CR>
 nnoremap <Leader>gc :Gcommit<CR>
 nnoremap <Leader>gp :Git push<CR>
 nnoremap <Leader>ge :Extradite<CR>
