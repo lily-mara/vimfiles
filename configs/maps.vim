@@ -14,7 +14,7 @@ imap <LeftMouse> <NOP>
 nmap <2-LeftMouse> <NOP>
 imap <2-LeftMouse> <NOP>
 
-"resource configs
+"re-source configs
 nmap <leader>ss :source $MYVIMRC<cr>
 
 "open NERDTree with ,nt
