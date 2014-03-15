@@ -14,17 +14,15 @@ imap <LeftMouse> <NOP>
 nmap <2-LeftMouse> <NOP>
 imap <2-LeftMouse> <NOP>
 
-<<<<<<< HEAD
-"Git gutter toggle from Leader + g
-"nnoremap <Leader>gg :GitGutterToggle<CR>
-=======
+"resource configs
+nmap <leader>ss :source $MYVIMRC<cr>
+
 "open NERDTree with ,nt
 nmap <leader>nt :NERDTreeToggle<cr>
 
 "Unite mappings
-nnoremap <Leader>b :Unite buffer
-nnoremap <Leader>f :Unite file
->>>>>>> vundle
+nnoremap <Leader>b :Unite buffer<CR>
+nnoremap <Leader>f :Unite file<CR>
 
 "Git commands
 nnoremap <Leader>g :Git add %<CR>
