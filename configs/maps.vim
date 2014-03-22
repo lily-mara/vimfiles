@@ -42,3 +42,7 @@ noremap <Space> :w!<CR>
 "spelling plugin
 noremap <Leader>sp :Spell<CR>
 noremap <Leader>sn :Nospell<CR>
+
+" 'saves' file to clipboard
+nnoremap <C-s> gg"+yG:q!
+
