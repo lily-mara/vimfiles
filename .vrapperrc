@@ -2,7 +2,7 @@
 
 syntax on
 set nu
-set showcmd
+"set showcmd
 set list
 set tabstop=4
 set shiftwidth=4
