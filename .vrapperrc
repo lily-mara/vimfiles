@@ -1,6 +1,6 @@
 "my configs for the vrapper plugin for eclipse
 
-syntax on
+"syntax on
 set nu
 "set showcmd
 set list
