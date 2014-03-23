@@ -46,3 +46,5 @@ noremap <Leader>sn :Nospell<CR>
 " 'saves' file to clipboard
 nnoremap <C-s> gg"+yG:q!
 
+"enter linewise visual
+nmap <Leader><Leader> V
