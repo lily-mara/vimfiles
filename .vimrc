@@ -2,7 +2,7 @@ set backupdir=./.backup,.,/tmp
 set directory=.,./.backup,/tmp
 set directory+=,~/tmp,$TMP
 
-let mapleader=","
+let mapleader = "\<Space>"
 
 if has('win32') || has('win64')
 	set noshellslash

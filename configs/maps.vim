@@ -37,7 +37,7 @@ nnoremap <Leader>ge :Extradite<CR>
 cmap w!! w !sudo tee > /dev/null %
 
 "space saves buffer
-noremap <Space> :w!<CR>
+noremap <Leader>w :w!<CR>
 
 "spelling plugin
 noremap <Leader>sp :Spell<CR>
