@@ -4,7 +4,7 @@ set nu
 set t_Co=256
 set cursorline
 
-color molokai
+color monokai
 
 " sets size of window / font
 if has("gui_running")
@@ -16,6 +16,8 @@ if has("gui_running")
 	elseif has("gui_win32")
 		set guifont=Consolas:h11:cANSI
 	endif
+else
+	set t_ut= 
 endif
 
 " It's useful to show the buffer number in the status line.
@@ -33,10 +35,8 @@ set guioptions-=m
 set showcmd
 set rnu
 
-if &encoding == "utf-8"
-	set list
-	set listchars=eol:¬,tab:>-,trail:#
-endif
+set list
+set listchars=eol:¬,tab:\ \ ,trail:·
 
 set tabstop=4
 set shiftwidth=4

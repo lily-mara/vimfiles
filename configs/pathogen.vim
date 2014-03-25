@@ -1,2 +1,2 @@
-set nocp
-call pathogen#infect()
+execute pathogen#infect()
+runtime bundle/vim-pathogen/autoload/pathogen.vim
