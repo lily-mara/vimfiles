@@ -20,6 +20,11 @@ nmap <leader>ss :source $MYVIMRC<cr>
 "open NERDTree with ,nt
 nmap <leader>nt :NERDTreeToggle<cr>
 
+"escape mapping
+inoremap <C-j> <esc>
+vnoremap <C-j> <esc>
+nnoremap <C-J> <NOP>
+
 "Unite mappings
 nnoremap <Leader>b :Unite buffer<CR>
 nnoremap <Leader>f :Unite file<CR>
