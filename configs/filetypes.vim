@@ -13,6 +13,6 @@ let g:syntastic_enable_signs=1
 let g:syntastic_cpp_checkers=['gcc']
 let g:syntastic_java_checkers=['javac']
 
-au Filetype python nmap <leader>r :!python %<CR>
+au Filetype python nmap <leader>r :!python3 %<CR>
 au Filetype sh nmap <leader>r :!./%<CR>
 au Filetype tex nmap <leader>r :silent:!latex %<CR>!%:r.dvi<CR>
