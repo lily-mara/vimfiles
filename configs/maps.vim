@@ -21,8 +21,9 @@ nmap <leader>ss :source $MYVIMRC<cr>
 nmap <leader>nt :NERDTreeToggle<cr>
 
 "escape mapping
-inoremap <C-k> <esc>
-vnoremap <C-k> <esc>
+inoremap <C-c> <esc>
+vnoremap <C-c> <esc>
+cnoremap <C-c> <esc>
 
 "Unite mappings
 nnoremap <Leader>b :Unite buffer<CR>
