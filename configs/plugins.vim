@@ -19,7 +19,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-speeddating'
 Bundle 'Shougo/unite.vim'
+Bundle 'airblade/vim-gitgutter'
 
 " Old plugins
-"Bundle 'airblade/vim-gitgutter'
 "Bundle 'terryma/vim-multiple-cursors'
