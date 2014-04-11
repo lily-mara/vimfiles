@@ -8,7 +8,6 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 Bundle 'tristen/vim-sparkup'
 Bundle 'scrooloose/syntastic'
-Bundle 'int3/vim-extradite'
 Bundle 'tpope/vim-fugitive'
 Bundle 'git://git.code.sf.net/p/vim-latex/vim-latex'
 Bundle 'tpope/vim-markdown'
@@ -25,6 +24,3 @@ Bundle 'tsukkee/unite-tag'
 if has('unix') || has('macunix')
 	Bundle 'jpalardy/vim-slime'
 endif
-
-" Old plugins
-"Bundle 'terryma/vim-multiple-cursors'
