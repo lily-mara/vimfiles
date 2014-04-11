@@ -20,6 +20,11 @@ Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-speeddating'
 Bundle 'Shougo/unite.vim'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'tsukkee/unite-tag'
+
+if has('unix') || has('macunix')
+	Bundle 'jpalardy/vim-slime'
+endif
 
 " Old plugins
 "Bundle 'terryma/vim-multiple-cursors'
