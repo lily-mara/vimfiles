@@ -1,8 +1,6 @@
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-let g:slime_target='tmux'
-
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'garbas/vim-snipmate'
@@ -27,4 +25,5 @@ Bundle 'bling/vim-airline'
 
 if has('unix') || has('macunix')
 	Bundle 'jpalardy/vim-slime'
+	let g:slime_target='tmux'
 endif
