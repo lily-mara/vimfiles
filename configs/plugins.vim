@@ -1,6 +1,8 @@
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+let g:slime_target='tmux'
+
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'garbas/vim-snipmate'
