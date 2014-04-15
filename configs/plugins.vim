@@ -20,6 +20,8 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'Shougo/unite.vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tsukkee/unite-tag'
+Bundle 'bling/vim-airline'
+
 
 if has('unix') || has('macunix')
 	Bundle 'jpalardy/vim-slime'
