@@ -28,6 +28,7 @@ set guioptions-=m
 
 set showcmd
 set rnu
+set hlsearch
 
 set list
 set listchars=eol:¬,tab:\ \ ,trail:·
