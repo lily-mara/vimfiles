@@ -16,13 +16,7 @@ if has("gui_running")
 	elseif has("gui_win32")
 		set guifont=Consolas:h11:cANSI
 	endif
-else
-	set t_ut= 
 endif
-
-" It's useful to show the buffer number in the status line.
-set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-13.(%l,%c%V%)\ %{fugitive#statusline()}
-set nrformats=
 
 set shellslash
 set grepprg=grep\ -nH\ $*
