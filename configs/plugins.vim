@@ -31,8 +31,11 @@ Bundle 'Shougo/unite.vim'
 Bundle 'tsukkee/unite-tag'
 
 "Look
-Bundle 'bling/vim-airline'
 Bundle 'natemara/vim-monokai'
+"--airline and its configuration
+Bundle 'bling/vim-airline'
+set laststatus=2
+let g:airline_powerline_fonts = 1
 
 
 if has('unix') || has('macunix')
