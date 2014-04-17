@@ -35,3 +35,4 @@ set listchars=eol:¬,tab:\ \ ,trail:·
 
 set tabstop=4
 set shiftwidth=4
+set colorcolumn=80
