@@ -28,6 +28,7 @@ cnoremap <C-c> <esc>
 "Unite mappings
 nnoremap <Leader>b :Unite buffer<CR>
 nnoremap <Leader>f :Unite file<CR>
+nnoremap <leader>t :silent !ctags &2>/dev/null<CR> :Unite tag<CR>
 
 "Git commands
 nnoremap <Leader>g :Git add %<CR>
