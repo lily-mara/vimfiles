@@ -48,5 +48,3 @@ let b:undo_ftplugin = "setlocal suffixes< suffixesadd<" .
 
 " Restore the saved compatibility options.
 let &cpo = s:save_cpo
-
-:set colorcolumn=70
