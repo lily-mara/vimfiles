@@ -26,9 +26,9 @@ vnoremap <C-c> <esc>
 cnoremap <C-c> <esc>
 
 "Unite mappings
-nnoremap <Leader>b :Unite buffer<CR>
-nnoremap <Leader>f :Unite file<CR>
-nnoremap <leader>t :silent !ctags &2>/dev/null<CR> :Unite tag<CR>
+nnoremap <Leader>b :Unite -start-insert buffer<CR>
+nnoremap <Leader>f :Unite -start-insert file_rec<CR>
+nnoremap <leader>t :silent !ctags &2>/dev/null<CR> :Unite -start-insert tag<CR>
 
 "Git commands
 nnoremap <Leader>g :Git add %<CR>
