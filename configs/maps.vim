@@ -30,6 +30,10 @@ nnoremap <Leader>b :Unite -start-insert buffer<CR>
 nnoremap <Leader>f :Unite -start-insert file_rec<CR>
 nnoremap <leader>t :silent !ctags &2>/dev/null<CR> :Unite -start-insert tag<CR>
 
+if has('unix') || has('macunix')
+	nnoremap <leader>v :VimShell<CR>
+endif
+
 "Git commands
 nnoremap <Leader>g :Git add %<CR>
 nnoremap <Leader>gc :Gcommit<CR>

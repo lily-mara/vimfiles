@@ -41,4 +41,7 @@ let g:airline_powerline_fonts = 0
 if has('unix') || has('macunix')
 	Bundle 'jpalardy/vim-slime'
 	let g:slime_target='tmux'
+
+	Bundle 'Shougo/vimshell.vim'
+	Bundle 'Shougo/vimproc.vim'
 endif
