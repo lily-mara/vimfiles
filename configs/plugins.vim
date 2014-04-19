@@ -37,11 +37,12 @@ Bundle 'bling/vim-airline'
 set laststatus=2
 let g:airline_powerline_fonts = 0
 
+"vimshell and dependency
+Bundle 'Shougo/vimshell.vim'
+Bundle 'Shougo/vimproc.vim'
 
 if has('unix') || has('macunix')
 	Bundle 'jpalardy/vim-slime'
 	let g:slime_target='tmux'
 
-	Bundle 'Shougo/vimshell.vim'
-	Bundle 'Shougo/vimproc.vim'
 endif
