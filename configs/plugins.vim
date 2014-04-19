@@ -41,6 +41,9 @@ let g:airline_powerline_fonts = 0
 Bundle 'Shougo/vimshell.vim'
 Bundle 'Shougo/vimproc.vim'
 
+Bundle 'Shougo/neocomplcache.vim'
+let g:neocomplcache_enable_at_startup = 1
+
 if has('unix') || has('macunix')
 	Bundle 'jpalardy/vim-slime'
 	let g:slime_target='tmux'
