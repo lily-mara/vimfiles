@@ -22,13 +22,8 @@ set shellslash
 set grepprg=grep\ -nH\ $*
 let g:tex_flavor='latex'
 
-" for eclim plugin
-set guioptions-=T
-set guioptions-=m
-
 set showcmd
 set rnu
-set hlsearch
 
 set list
 set listchars=eol:¬,tab:\ \ ,trail:·
