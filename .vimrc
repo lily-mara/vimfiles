@@ -4,6 +4,9 @@ set directory+=,~/tmp,$TMP
 
 let mapleader = "\<Space>"
 
+set fileformat=unix
+set fileformats=unix,dos
+
 if has('win32') || has('win64')
 	set noshellslash
 endif
