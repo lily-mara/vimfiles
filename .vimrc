@@ -66,6 +66,8 @@ set grepprg=grep\ -nH\ $*
 set showcmd
 set rnu
 
+set laststatus=2 statusline=%02n:%<%f\ %h%m%r%=%-13.(%l,%c%V%)\ %{fugitive#statusline()}
+
 set list
 set listchars=eol:¬,tab:\ \ ,trail:·
 
